@@ -29,10 +29,40 @@
 // Exemple : [1, 2, 3] => 1
 // La logique entre le JS et le PHP est la même. Tu peux également faire [0] pour récupérer le premier élément d'un tableau.
 
+
+
+
+
+
+
+
+
+
+
+
+
 // ========== SOLUTION ==========
 // function firstElementTab($tab) {
 //     return $tab[0];
 // }
 // echo firstElementTab([1, 2, 3]); // Affiche 1
+
+
+// EXERCICE 3
+// Crée une fonction qui prend en paramètre un tableau et qui retourne le dernier élément du tableau.
+// Exemple : [1, 2, 3] => 3
+
+
+
+
+
+
+
+
+// ========== SOLUTION ==========
+// function lastElementTab($tab) {
+//     return $tab[count($tab) - 1];
+// }
+// echo lastElementTab([1, 2, 3]); // Affiche 3
 
 ?>
